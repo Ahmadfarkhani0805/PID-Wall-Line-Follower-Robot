@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html class="light" lang="id">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Hubungi Kami - ROBERA Robotics</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "tertiary-fixed": "#acf847",
+            "on-secondary": "#ffffff",
+            "secondary-fixed": "#ffdbca",
+            "on-tertiary-container": "#d3ff9b",
+            "on-surface-variant": "#434655",
+            "surface-variant": "#d5e3fc",
+            "surface-container-lowest": "#ffffff",
+            "surface-dim": "#ccdbf3",
+            "primary-fixed": "#dbe1ff",
+            "on-error": "#ffffff",
+            "outline-variant": "#c3c6d7",
+            "on-primary": "#ffffff",
+            "surface-container": "#e6eeff",
+            "on-tertiary": "#ffffff",
+            "error": "#ba1a1a",
+            "primary": "#004ac6",
+            "surface-tint": "#0053db",
+            "surface-container-low": "#eff4ff",
+            "secondary-fixed-dim": "#ffb690",
+            "on-secondary-fixed": "#341100",
+            "surface": "#f8f9ff",
+            "inverse-primary": "#b4c5ff",
+            "on-tertiary-fixed": "#102000",
+            "inverse-on-surface": "#eaf1ff",
+            "tertiary-fixed-dim": "#91db2a",
+            "tertiary-container": "#4c7a00",
+            "outline": "#737686",
+            "on-surface": "#0d1c2e",
+            "on-primary-fixed-variant": "#003ea8",
+            "background": "#f8f9ff",
+            "on-tertiary-fixed-variant": "#304f00",
+            "on-error-container": "#93000a",
+            "surface-container-high": "#dce9ff",
+            "secondary-container": "#fd761a",
+            "on-secondary-container": "#5c2400",
+            "secondary": "#9d4300",
+            "primary-fixed-dim": "#b4c5ff",
+            "error-container": "#ffdad6",
+            "primary-container": "#2563eb",
+            "inverse-surface": "#233144",
+            "on-primary-fixed": "#00174b",
+            "tertiary": "#3a5f00",
+            "surface-container-highest": "#d5e3fc",
+            "surface-bright": "#f8f9ff",
+            "on-secondary-fixed-variant": "#783200",
+            "on-primary-container": "#eeefff",
+            "on-background": "#0d1c2e"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "container-max": "1280px",
+            "margin-mobile": "16px",
+            "margin-desktop": "64px",
+            "gutter": "24px",
+            "base": "8px"
+          },
+          "fontFamily": {
+            "headline-md": ["Rubik"],
+            "headline-xl": ["Rubik"],
+            "body-lg": ["Plus Jakarta Sans"],
+            "headline-lg-mobile": ["Rubik"],
+            "body-md": ["Plus Jakarta Sans"],
+            "label-md": ["Plus Jakarta Sans"],
+            "headline-lg": ["Rubik"]
+          },
+          "fontSize": {
+            "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
+            "headline-xl": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+            "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+            "headline-lg-mobile": ["28px", {"lineHeight": "34px", "fontWeight": "600"}],
+            "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+            "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+            "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}]
+          }
+        },
+      },
+    }
+  </script>
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    }
+    .qr-gradient {
+      background: linear-gradient(135deg, #004ac6 0%, #2563eb 100%);
+    }
+    .circuit-bg {
+      background-image: radial-gradient(circle at 2px 2px, #c3c6d7 1px, transparent 0);
+      background-size: 24px 24px;
+    }
+  </style>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VMKKFH86CM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VMKKFH86CM');
+</script>
+<body class="bg-background text-on-background font-body-md antialiased">
+  <!-- TopAppBar -->
+  <header class="bg-surface dark:bg-on-surface shadow-sm dark:shadow-none docked full-width top-0 z-50 sticky">
+    <nav class="flex justify-between items-center w-full px-margin-desktop py-4 max-w-container-max mx-auto">
+      <div class="flex-1 flex justify-start items-center">
+        <a href="#" class="flex items-center gap-2 group">
+          <img src="logo.png" alt="ROBERA Logo" class="w-8 h-8 object-contain group-hover:scale-110 transition-transform">
+          <span class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim">ROBERA</span>
+        </a>
+      </div>
+      <nav class="hidden md:flex flex-1 justify-center gap-6 items-center">
+        <a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200" href="index.html">Beranda</a>
+        <a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200" href="kurikulum.html">Programs</a>
+        <a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200" href="modul.html">Digital Modules</a>
+        <a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-primary dark:hover:text-primary-fixed-dim transition-colors duration-200" href="about.html">About</a>
+      </nav>
+      <div class="flex-1 flex justify-end items-center gap-4">
+        <a href="hubungi.html" class="bg-primary text-on-primary font-bold px-6 py-2.5 rounded-full hover:bg-primary-container transition-all active:scale-95 inline-block text-center">Hubungi Kami</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="min-h-[calc(100vh-180px)] circuit-bg flex items-center justify-center py-16 px-4">
+    <div class="max-w-4xl w-full flex flex-col md:flex-row items-center gap-12">
+      <!-- Content Section -->
+      <div class="flex-1 text-center md:text-left">
+        <div class="inline-flex items-center gap-2 bg-surface-container-high px-4 py-2 rounded-full text-primary mb-6">
+          <span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">forum</span>
+          <span class="font-label-md uppercase tracking-wider">Konsultasi Gratis</span>
+        </div>
+        <h1 class="font-headline-xl text-headline-xl text-on-surface mb-4">
+          Hubungi Kami via WhatsApp
+        </h1>
+        <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-lg">
+          Pindai kode di bawah ini untuk terhubung langsung dengan konsultan pendidikan kami. Dapatkan informasi detail mengenai kurikulum robotika terbaik untuk anak Anda.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
+          <div class="flex items-center gap-3 bg-surface-container p-4 rounded-xl border border-outline-variant w-full sm:w-auto">
+            <div class="w-12 h-12 rounded-full bg-tertiary-fixed flex items-center justify-center">
+              <span class="material-symbols-outlined text-on-tertiary-fixed">smart_toy</span>
+            </div>
+            <div class="text-left">
+              <p class="font-label-md text-on-surface-variant">Respon Cepat</p>
+              <p class="font-body-md font-bold text-on-surface">Senin - Jumat</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- QR Code Card -->
+      <div class="flex-1 flex justify-center">
+        <div class="bg-white p-8 rounded-[2.5rem] shadow-xl border border-outline-variant relative group">
+          <!-- Decorative accents -->
+          <div class="absolute -top-4 -right-4 w-12 h-12 bg-secondary-container rounded-full flex items-center justify-center text-white shadow-lg">
+            <span class="material-symbols-outlined">qr_code_scanner</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <div class="p-4 bg-surface-container-lowest rounded-3xl border-2 border-primary-container mb-8">
+              <img alt="WhatsApp QR Code" class="w-60 h-60" data-alt="A clean and professional digital QR code rendered in high contrast black and white on a pristine white background. The QR code is the central focal point, surrounded by subtle tech-inspired geometric patterns in primary blue. The lighting is soft and even, suggesting a bright and modern tech-playful aesthetic. The overall mood is approachable and functional for a robotics education brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCeJOI2FJszhvToj33dfJWi2TVSDqlKN27IRxO0E24idBHb_Nbl1RaUBIoz3WcH9dS6UQyEaNhlZ4sjRPyZEn_C6pnLzbqrZr1F5HOBZyW4A1J5ANmzbFrD5Kj2D-3y0M1vZ7_wEQqllPfMh6fpbludLvmD5svCAtR4p7ibzVXM1yVg_VjRWbfpSNuVKtAztz-QRMoiKOzXfPn7IXfmU5k0Rf8_ypqNK3LMzeArJxePTVT5lA8vLwDGO95YMyZXOQHjoQTSjYgzo08"/>
+            </div>
+            <div class="w-full space-y-4">
+              <p class="text-center font-label-md text-on-surface-variant mb-4">
+                Tidak bisa memindai?
+              </p>
+              <button class="w-full bg-primary text-on-primary py-4 rounded-2xl font-headline-md flex items-center justify-center gap-3 hover:bg-primary-container transition-all shadow-md active:scale-[0.98]">
+                <span class="material-symbols-outlined">open_in_new</span>
+                Buka WhatsApp Web
+              </button>
+              <button class="w-full border-2 border-secondary text-secondary py-3 rounded-2xl font-label-md hover:bg-secondary-fixed transition-all flex items-center justify-center gap-2">
+                <span class="material-symbols-outlined text-[18px]">call</span>
+                Hubungi via Telepon
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-surface-container-low dark:bg-on-surface border-t border-outline-variant full-width bottom">
+    <div class="w-full px-margin-desktop py-12 flex flex-col md:flex-row justify-between items-center max-w-container-max mx-auto">
+      <div class="mb-8 md:mb-0">
+        <div class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim mb-2">ROBERA</div>
+        <p class="font-body-md text-on-surface-variant max-w-xs text-center md:text-left">
+          Empowering the next generation of inventors through playful robotics and engineering.
+        </p>
+      </div>
+      <div class="flex flex-col items-center md:items-end gap-6">
+        <div class="flex flex-wrap justify-center gap-6">
+          <a class="font-label-md text-on-surface-variant dark:text-surface-variant hover:text-secondary transition-colors" href="#">Partnerships</a>
+          <a class="font-label-md text-on-surface-variant dark:text-surface-variant hover:text-secondary transition-colors" href="#">Impact Reports</a>
+          <a class="font-label-md text-on-surface-variant dark:text-surface-variant hover:text-secondary transition-colors" href="#">Teacher Resources</a>
+          <a class="font-label-md text-on-surface-variant dark:text-surface-variant hover:text-secondary transition-colors" href="#">Terms of Service</a>
+          <a class="font-label-md text-on-surface-variant dark:text-surface-variant hover:text-secondary transition-colors" href="#">Privacy Policy</a>
+        </div>
+        <div class="font-label-md text-on-surface-variant dark:text-surface-variant opacity-70">
+          © 2024 ROBERA Robotics. Empowering the next generation of inventors.
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
